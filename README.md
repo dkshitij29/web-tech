@@ -1,6 +1,7 @@
 # web-tech
 ## Assignment
-# 
+
+
 HSR Motors is a car dealership which advertises their business on multiple platforms such as Facebook, Twitter, Google, etc. Their primary goal is to get leads from people who are interested in buying a car. 
 
 To manage the leads that they receive, they are currently using a spreadsheet software. However, the spreadsheet software does not help them due to the large volume and the need for a lot of manual data entry.
