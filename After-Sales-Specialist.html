@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--The database is created priorly which 4 tables with each serving individually it's purpose-->
+<!--In this we will add a condition  in query for values greater than some amount-->
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title> After-Sales Specialist  </title>
+    <style>
+        table {
+            margin: 0 auto;
+            font-size: large;
+            border: 1px solid black;
+        }
+ 
+        h1 {
+            text-align: center;
+            color: hsl(120, 29%, 60%);
+            font-size: small;
+            font-family: 'Gill Sans', 'Gill Sans MT',
+            ' Calibri', 'Trebuchet MS', 'sans-serif';
+            font-weight: bold;
+            text-decoration: underline
+        }
+ 
+        td {
+            background-color: #E4F5D4;
+            border: 1px solid black;
+        }
+ 
+        th,
+        td {
+            font-weight: bold;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+ 
+        td {
+            font-weight: lighter;
+        }
+    </style>
+</head>
+ 
+<body style="background-color:lightgray ;">
+    <section>
+        <h1> <u> Buyers </u></h1>
+        <table>
+            <tr>
+                <th>Name:</th>
+                <th>Budget:</th>
+                <th>Phone-no:</th>
+                <th>Response</th>
+                <th> no-of-offers-claimed</th>
+                <th>Pending offers</th>
+            </tr>
+            <tr>
+                <td><?php echo $rows['name'];?></td>
+                <td><?php echo $rows['phoneno'];?></td>
+                <td><?php echo $rows['budget'];?></td>
+                <td><?php echo $rows['response'];?></td>
+                <td><?php echo $rows['offers_claimed'];?></td>
+                <td><?php echo $rows['Pending_offers'];?></td>
+            </tr>
+            <tr>
+                <td><?php echo $rows['name'];?></td>
+                <td><?php echo $rows['phoneno'];?></td>
+                <td><?php echo $rows['budget'];?></td>
+                <td><?php echo $rows['response'];?></td>
+                <td><?php echo $rows['offers_claimed'];?></td>
+                <td><?php echo $rows['Pending_offers'];?></td>
+            </tr>
+            <tr>
+                <td><?php echo $rows['name'];?></td>
+                <td><?php echo $rows['phoneno'];?></td>
+                <td><?php echo $rows['budget'];?></td>
+                <td><?php echo $rows['response'];?></td>
+                <td><?php echo $rows['offers_claimed'];?></td>
+                <td><?php echo $rows['Pending_offers'];?></td>
+            </tr>
+            <tr>
+                <td><?php echo $rows['name'];?></td>
+                <td><?php echo $rows['phoneno'];?></td>
+                <td><?php echo $rows['budget'];?></td>
+                <td><?php echo $rows['response'];?></td>
+                <td><?php echo $rows['offers_claimed'];?></td>
+                <td><?php echo $rows['Pending_offers'];?></td>
+            </tr>
+            <tr>
+                <td><?php echo $rows['name'];?></td>
+                <td><?php echo $rows['phoneno'];?></td>
+                <td><?php echo $rows['budget'];?></td>
+                <td><?php echo $rows['response'];?></td>
+                <td><?php echo $rows['offers_claimed'];?></td>
+                <td><?php echo $rows['Pending_offers'];?></td>
+            </tr>
+            <tr>
+                <td><?php echo $rows['name'];?></td>
+                <td><?php echo $rows['phoneno'];?></td>
+                <td><?php echo $rows['budget'];?></td>
+                <td><?php echo $rows['response'];?></td>
+                <td><?php echo $rows['offers_claimed'];?></td>
+                <td><?php echo $rows['Pending_offers'];?></td>
+            </tr>
+            <tr>
+                <td><?php echo $rows['name'];?></td>
+                <td><?php echo $rows['phoneno'];?></td>
+                <td><?php echo $rows['budget'];?></td>
+                <td><?php echo $rows['response'];?></td>
+                <td><?php echo $rows['offers_claimed'];?></td>
+                <td><?php echo $rows['Pending_offers'];?></td>
+            </tr>
+        </table>
+    </section>
+</body> 
+</html>
